@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/blog/super-blog/posts/8/like
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IkFuZHJldyIsInJvbGUiOiJVU0VSIn0.HmJG6wMxD0PkG_xlH-x303CK1MR9ggqo6VYC_wGK4ok
+
+###
+POST http://localhost:8080/sign-in
+Content-Type: application/json
+
+{
+  "email" : "test@mail.ru",
+  "password": "123"
+}
+
+###
+GET http://localhost:8080/api/blog/super-blog/posts
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IkFuZHJldyIsInJvbGUiOiJVU0VSIn0.HmJG6wMxD0PkG_xlH-x303CK1MR9ggqo6VYC_wGK4ok
+Accept: application/json
+
