@@ -1,4 +1,4 @@
-package com.exmple.tests;
+package com.exmple.testing.model;
 
 public class PostData {
 
