@@ -25,4 +25,13 @@ public class PostHelper extends HelperBase {
         TimeUnit.SECONDS.sleep(1);
     }
 
+    public int getPostsCount() {
+        return driver.findElements(By.className("custom-post-section")).size();
+    }
+
+    public int getUpperPostId() {
+        String id = driver.findElement(By.className("markdown-body")).getAttribute("id").substring(16);
+        return Integer.parseInt(id);
+    }
+
 }

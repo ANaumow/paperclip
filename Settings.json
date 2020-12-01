@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "testEmail": "test@mail.ru",
+  "testPassword": "123",
+  "driverPath": "C:/Soft/chromedriver.exe",
+  "driverPropertyName": "webdriver.chrome.driver"
+}

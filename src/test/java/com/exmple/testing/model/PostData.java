@@ -4,6 +4,9 @@ public class PostData {
 
     private String text;
 
+    public PostData() {
+    }
+
     public PostData(String text) {
         this.text = text;
     }

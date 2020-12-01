@@ -4,6 +4,9 @@ public class CommentData {
 
     private String text;
 
+    public CommentData() {
+    }
+
     public CommentData(String text) {
         this.text = text;
     }
